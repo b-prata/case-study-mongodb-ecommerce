@@ -21,12 +21,10 @@ case-study-mongodb-ecommerce/
 │   ├── 03_recommendation_popularity.js
 │   ├── 04_recommendation_segment.js
 │   └── 05_explain_queries.js
-├── data/
-│   ├── products-2.json
-│   ├── users-4.json
-│   └── purchases-3.json
-└── docs/
-    └── relatorio_case_study_mongodb.md
+└── data/
+    ├── products-2.json
+    ├── users-4.json
+    └── purchases-3.json
 ```
 
 ## Coleções
@@ -63,14 +61,9 @@ load("scripts/05_explain_queries.js")
 4. Testar a recomendação por popularidade global.
 5. Testar a recomendação por segmento.
 6. Executar as queries com `explain`.
-7. Consultar o relatório em `docs/`.
 
 ## Resultados esperados
 
 - A recomendação personalizada deve devolver produtos das preferências do utilizador, excluindo os já comprados.
 - A recomendação por popularidade global deve devolver os produtos mais comprados em toda a plataforma.
 - A recomendação por segmento deve devolver produtos populares entre utilizadores do mesmo segmento.
-
-## Relatório
-
-O relatório final encontra-se em `docs/relatorio_case_study_mongodb.md`.
